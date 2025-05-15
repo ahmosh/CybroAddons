@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blendz.jo</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Georgia&display=swap');
+
+    body {
+      margin: 0;
+      background: #f5f0e6;
+      font-family: 'Georgia', serif;
+      color: #4b3b2b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      background: #fff8f0;
+      border: 2px solid #a67c52;
+      border-radius: 12px;
+      max-width: 400px;
+      width: 100%;
+      padding: 30px 25px;
+      box-shadow: 0 6px 15px rgba(166, 124, 82, 0.4);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      letter-spacing: 4px;
+      text-shadow: 1px 1px 0 #c6a870;
+    }
+
+    p.description {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      color: #6d5a3a;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #a67c52;
+      color: #fff8f0;
+      padding: 15px 35px;
+      border-radius: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 8px rgba(166, 124, 82, 0.5);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #c6a870;
+      box-shadow: 0 6px 12px rgba(198, 168, 112, 0.8);
+    }
+
+    @media (max-width: 450px) {
+      .container {
+        max-width: 90%;
+        padding: 25px 15px;
+      }
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      a.button {
+        padding: 12px 25px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Blendz.jo</h1>
+    <p class="description">
+      Blendz.jo is a Jordan-based brand specializing in natural skincare and wellness products, sharing quality and authenticity with our community through Instagram.
+    </p>
+    <a class="button" href="https://www.instagram.com/blendz.jo" target="_blank" rel="noopener noreferrer">
+      Visit Our Instagram
+    </a>
+  </div>
+</body>
+</html>
